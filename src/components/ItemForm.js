@@ -40,11 +40,21 @@ function ItemForm(props) {
     <form className="inventory-form" onSubmit={handleSubmit}>
       <label>
         Name:
-        <input type="text" value={item} onChange={handleNameChange} />
+        <input
+          type="text"
+          value={item}
+          className="name-input"
+          onChange={handleNameChange}
+        />
       </label>
       <label>
         Quantity:
-        <input type="number" value={quantity} onChange={handleQuantityChange} />
+        <input
+          type="number"
+          value={quantity}
+          className="quantity-input"
+          onChange={handleQuantityChange}
+        />
       </label>
       <button type="submit">Add Item</button>
     </form>

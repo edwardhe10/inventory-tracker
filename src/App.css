@@ -1,3 +1,7 @@
+* {
+  font-family: "Courier";
+}
+
 h1 {
   text-align: center;
 }
@@ -13,6 +17,7 @@ h2 {
   margin-bottom: 10px;
   margin-left: 200px;
   margin-right: 200px;
+  background: rgb(133, 182, 251);
 }
 
 .item-details {
